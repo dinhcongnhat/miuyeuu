@@ -25,7 +25,14 @@ body {
 .birthdayCard:hover .cardFront {
   transform: rotateY(-160deg);
 }
-
+    @media only screen and (max-width: 414px) { /* iPhone XS Max width */
+            .birthdayCard {
+                padding: 20px; /* Add some padding to the card for smaller screens */
+            }
+            .cardInside {
+                font-size: 14px; /* Decrease font size for smaller screens */
+            }
+        }
 .birthdayCard:hover .happy {
   visibility: hidden;
 }
@@ -34,7 +41,7 @@ body {
   position: relative;
   background-color: #fff;
   width: 400px;
-  height: 500px;
+  height: 600px;
   overflow: hidden;
   transform-origin: left;
   box-shadow: inset 100px 20px 100px rgba(0, 0, 0, 0.2),
@@ -134,7 +141,7 @@ body {
   position: absolute;
   background-color: #fff;
   width: 400px;
-  height: 500px;
+  height: 600px;
   z-index: -1;
   left: 0;
   top: 0;
@@ -162,4 +169,5 @@ p {
   margin: 30px;
   outline-color: #333;
   outline-style: dotted;
+  transform: scaleX(1);
 }

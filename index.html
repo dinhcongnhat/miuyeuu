@@ -1,35 +1,53 @@
 <!DOCTYPE html>
-<meta charset="UTF-8">
 <html lang="vi">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Happy Birthday Miu Yêu</title>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
     <!-- CSS -->
-    <link rel="stylesheet" href="css/style.css"/>
-  </head>
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Đảm bảo rằng hình ảnh không vượt quá chiều rộng của thiết bị */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+        
+        /* Thiết lập background image cho body */
+        body {
+            background-image: url('z5383976686646_a4a6d5eec8f0204f1586a175dbf0456a.jpg'); /* Đường dẫn tới hình ảnh background */
+            background-size: cover; /* Đảm bảo hình ảnh nền sẽ được phủ toàn bộ phần diện tích của body */
+            background-position: center; /* Canh giữa hình ảnh */
+            background-repeat: no-repeat; /* Không lặp lại hình ảnh */
+            margin: 0; /* Remove default margin */
+            padding: 0; /* Remove default padding */
+        }
 
-  <body>
-
-    <div class="birthdayCard">
-      <div class="cardFront">
+        /* Styles for smaller screens */
+    
+    </style>
+</head>
+<body>
+<div class="birthdayCard">
+    <div class="cardFront">
         <h3 class="happy">HAPPY BIRTHDAY</h3>
         <div class="balloons">
-          <img src="Miu.png" alt="Balloons Image" style="width: 100%;">
+            <img src="Miu.png" alt="Balloons Image">
         </div>
-      </div>
-      <div class="cardInside">
+    </div>
+    <div class="cardInside">
         <h3 class="back">HAPPY BIRTHDAY</h3>
+        
         <p>Dear MIU YÊU,</p>
         <p>
-         Anh chúc miu yêu sinh nhật vui vẻ nhả❤🎂, bước sang tuổi mới anh chúc em thật nhiều niềm vui, hạnh phúc
-         đạt được những mục tiêu mà em đặt ra và có được công việc đúng với những gì miu mong muốn trong năm 2024 này. 
-         Trải qua thật nhiều thứ và giờ là năm thứ 4 anh vẫn ở đây và đón sinh nhật cùng em anh hi vọng nó sẽ còn tiếp tục nữa
-         cuối cùng anh chỉ muốn nói là Anh yêu Em nhiều lắm❤❤
+            Anh chúc miu yêu của anh sinh nhật vui vẻ nhả<i>❤</i>, bước sang tuổi mới anh chúc em thật nhiều niềm vui, hạnh phúc
+            đạt được những mục tiêu mà em đặt ra và có được công việc đúng với những gì miu mong muốn trong năm 2024 này.
+            Trải qua thật nhiều thứ và giờ là năm thứ 4 anh vẫn ở đây và đón sinh nhật cùng em anh hi vọng năm sau và sau sau nữa anh vẫn bên cạnh đón sinh nhật cùng em,
+            cuối cùng anh chỉ muốn nói là Anh yêu Em nhiều lắm<i>❤</i>
         </p>
-        <p class="name"> YÊU MIU❤</p>
-      </div>
+        <p class="name">  <i>YÊU MIU❤</i></p>
     </div>
-  </body>
+</div>
+</body>
 </html>
